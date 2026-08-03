@@ -40,3 +40,30 @@ jobs:
             git commit -m "chore: update free node subscription"
             git push
           fi
+
+      - name: Publish daily release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          DATE="$(TZ=Asia/Shanghai date +%F)"
+          TAG="daily-$DATE"
+          if [ ! -f "history/$DATE.md" ]; then
+            echo "history/$DATE.md not found, skip release."
+            exit 0
+          fi
+
+          git fetch --tags
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists."
+          else
+            git tag "$TAG"
+            git push origin "$TAG"
+          fi
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" sub/latest.txt "history/$DATE.md" --clobber
+          else
+            gh release create "$TAG" sub/latest.txt "history/$DATE.md" \
+              --title "$DATE 免费节点订阅" \
+              --notes-file "history/$DATE.md"
+          fi
