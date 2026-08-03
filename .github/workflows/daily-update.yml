@@ -1,0 +1,42 @@
+name: Daily update free node share
+
+on:
+  schedule:
+    # Beijing time 00:20 is UTC 16:20 on the previous day.
+    - cron: '20 16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-free-node-share
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      SITE_URL: https://free.yunxiang.lol/
+      PRODUCT_URL: https://user.yunxiangpnv.lol/
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Update README and subscription files
+        run: node scripts/update-share.mjs
+
+      - name: Commit daily update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md sub/latest.txt history
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update free node subscription"
+            git push
+          fi
