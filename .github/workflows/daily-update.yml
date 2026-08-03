@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: 22
 
-      - name: Update README and subscription files
+      - name: Update README and article links
         run: node scripts/update-share.mjs
 
       - name: Commit daily update
@@ -37,7 +37,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: update free node subscription"
+            git commit -m "chore: update free node article links"
             git push
           fi
 
@@ -64,6 +64,6 @@ jobs:
             gh release upload "$TAG" sub/latest.txt "history/$DATE.md" --clobber
           else
             gh release create "$TAG" sub/latest.txt "history/$DATE.md" \
-              --title "$DATE 免费节点订阅" \
+              --title "$DATE 免费节点文章入口" \
               --notes-file "history/$DATE.md"
           fi
