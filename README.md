@@ -7,7 +7,7 @@
 | 项目 | 内容 |
 | --- | --- |
 | 更新日期 | 2026年8月4日 |
-| 自动同步时间 | 2026年8月4日 01:07 |
+| 自动同步时间 | 2026年8月4日 01:40 |
 | 当天文章 | https://free.yunxiang.lol/posts/nodes/2026-08-04 |
 | 订阅格式 | XBoard 通用订阅 |
 | 适配客户端 | Clash Verge Rev / Mihomo Party / v2rayN / v2rayNG / Shadowrocket |
