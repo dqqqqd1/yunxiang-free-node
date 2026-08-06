@@ -1,14 +1,14 @@
-# 云享免费节点分享 | Clash / Mihomo / V2Ray 每日更新
+# Yunxiang Free Node Share
 
-> 本仓库只同步每日免费节点文章入口、使用说明和归档记录。真实免费订阅地址不在 GitHub 直接公开，请进入当天博客文章查看。
+> This repository keeps a single daily article entry, documentation links, and archive pointers without exposing the real subscription URL on GitHub.
 
 ## 今日获取入口
 
 | 项目 | 内容 |
 | --- | --- |
-| 更新日期 | 2026年8月6日 |
-| 自动同步时间 | 2026年8月6日 00:00 |
-| 当天文章 | https://free.yunxiang.lol/posts/nodes/2026-08-06 |
+| 更新日期 | 2026年8月7日 |
+| 自动同步时间 | 2026年8月7日 00:00 |
+| 当天文章 | https://free.yunxiang.lol/posts/nodes/2026-08-07 |
 | 订阅格式 | XBoard 通用订阅 |
 | 适配客户端 | Clash Verge Rev / Mihomo / v2rayN / v2rayNG / Shadowrocket / OpenClash |
 | 主要地区 | 香港、日本、新加坡、美国 |
@@ -19,14 +19,14 @@
 ### 当天文章链接
 
 ```text
-https://free.yunxiang.lol/posts/nodes/2026-08-06
+https://free.yunxiang.lol/posts/nodes/2026-08-07
 ```
 
-请打开上面的博客文章，在正文“免费订阅地址”区域获取当天可用入口。GitHub 只做索引和分发入口，这样可以把更新时间、导入教程、失效排查、使用边界和稳定套餐说明集中到同一篇文章里。
+请打开上面的博客文章，在正文“免费订阅地址”区域获取当天可用入口。真实订阅地址统一放在博客正文里，方便持续更新、补充失效说明和保留归档。
 
 ## 快速入口
 
-- 今日免费节点文章：https://free.yunxiang.lol/posts/nodes/2026-08-06
+- 今日免费节点文章：https://free.yunxiang.lol/posts/nodes/2026-08-07
 - 每日免费节点归档：https://free.yunxiang.lol/nodes
 - 客户端专题页：https://free.yunxiang.lol/topics
 - 订阅导入教程：https://free.yunxiang.lol/docs/start/import-subscription
@@ -37,7 +37,7 @@ https://free.yunxiang.lol/posts/nodes/2026-08-06
 
 ## 使用说明
 
-本站每日北京时间 00:00 自动处理免费节点用户：重置流量、刷新订阅 Token、写入服务端动态数据，并同步 GitHub 分享仓库。仓库里的 `sub/latest.txt` 只保存当天文章链接，不保存真实订阅地址。
+本站每日北京时间 00:00 自动处理免费节点用户：重置流量、刷新订阅 Token、写入服务端动态数据，并同步 GitHub 分享仓库。先看当天文章，再按文档导入和排错。 仓库里的 `sub/latest.txt` 只保存当天文章链接，不保存真实订阅地址。
 
 免费节点适合这些场景：
 
