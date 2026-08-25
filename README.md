@@ -6,9 +6,9 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 更新日期 | 2026年8月10日 |
-| 自动同步时间 | 2026年8月10日 00:00 |
-| 当天文章 | https://free.yunxiang.lol/posts/nodes/2026-08-10 |
+| 更新日期 | 2026年8月25日 |
+| 自动同步时间 | 2026年8月25日 00:00 |
+| 当天文章 | https://free.yunxiang.lol/posts/nodes/2026-08-25 |
 | 订阅格式 | XBoard 通用订阅 |
 | 适配客户端 | Clash Verge Rev / Mihomo / v2rayN / v2rayNG / Shadowrocket / OpenClash |
 | 主要地区 | 香港、日本、新加坡、美国 |
@@ -19,21 +19,33 @@
 ### 当天文章链接
 
 ```text
-https://free.yunxiang.lol/posts/nodes/2026-08-10
+https://free.yunxiang.lol/posts/nodes/2026-08-25
 ```
 
 请打开上面的博客文章，在正文“免费订阅地址”区域获取当天可用入口。真实订阅地址统一放在博客正文里，方便持续更新、补充失效说明和保留归档。
 
 ## 快速入口
 
-- 今日免费节点文章：https://free.yunxiang.lol/posts/nodes/2026-08-10
+- 今日免费节点文章：https://free.yunxiang.lol/posts/nodes/2026-08-25
 - 每日免费节点归档：https://free.yunxiang.lol/nodes
+- 订阅格式检测工具：https://free.yunxiang.lol/tools/subscription-format-checker
 - 客户端专题页：https://free.yunxiang.lol/topics
 - 订阅导入教程：https://free.yunxiang.lol/docs/start/import-subscription
 - 常见问题文档：https://free.yunxiang.lol/docs
 - 连接异常排查：https://free.yunxiang.lol/docs/troubleshooting/no-internet
 - RSS 更新源：https://free.yunxiang.lol/rss.xml
 - 稳定付费套餐：https://user.yunxiangpnv.lol/
+
+## 工具与排查
+
+- 订阅格式检测工具：https://free.yunxiang.lol/tools/subscription-format-checker
+- Clash 导入订阅失败：https://free.yunxiang.lol/docs/troubleshooting/clash-verge-import-failed
+- v2rayN 更新订阅失败：https://free.yunxiang.lol/docs/troubleshooting/v2rayn-update-subscription-failed
+- Mihomo 格式不支持：https://free.yunxiang.lol/docs/troubleshooting/mihomo-format-unsupported
+- 订阅格式说明：https://free.yunxiang.lol/docs/concepts/subscription-formats
+- VMess / VLESS / Trojan / SS 区别：https://free.yunxiang.lol/docs/concepts/vmess-vless-trojan-ss
+- 免费节点安全吗：https://free.yunxiang.lol/docs/safety/are-free-nodes-safe
+- 资源导航与合作引用：https://free.yunxiang.lol/docs/resources
 
 ## 使用说明
 
@@ -64,6 +76,8 @@ https://user.yunxiangpnv.lol/
 - 官方博客：https://free.yunxiang.lol/
 - 每日节点归档：https://free.yunxiang.lol/nodes
 - 客户端专题：https://free.yunxiang.lol/topics
+- 订阅格式检测：https://free.yunxiang.lol/tools/subscription-format-checker
+- 资源导航与合作引用：https://free.yunxiang.lol/docs/resources
 - 使用文档：https://free.yunxiang.lol/docs
 - RSS：https://free.yunxiang.lol/rss.xml
 - 稳定付费套餐：https://user.yunxiangpnv.lol/
