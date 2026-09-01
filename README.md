@@ -6,9 +6,9 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 更新日期 | 2026年9月1日 |
-| 自动同步时间 | 2026年9月1日 00:00 |
-| 当天文章 | https://free.yunxiang.lol/posts/nodes/2026-09-01 |
+| 更新日期 | 2026年9月2日 |
+| 自动同步时间 | 2026年9月2日 00:00 |
+| 当天文章 | https://free.yunxiang.lol/posts/nodes/2026-09-02 |
 | 订阅格式 | XBoard 通用订阅 |
 | 适配客户端 | Clash Verge Rev / Mihomo / v2rayN / v2rayNG / Shadowrocket / OpenClash |
 | 主要地区 | 香港、日本、新加坡、美国 |
@@ -19,14 +19,14 @@
 ### 当天文章链接
 
 ```text
-https://free.yunxiang.lol/posts/nodes/2026-09-01
+https://free.yunxiang.lol/posts/nodes/2026-09-02
 ```
 
 请打开上面的博客文章，在正文“免费订阅地址”区域获取当天可用入口。真实订阅地址统一放在博客正文里，方便持续更新、补充失效说明和保留归档。
 
 ## 快速入口
 
-- 今日免费节点文章：https://free.yunxiang.lol/posts/nodes/2026-09-01
+- 今日免费节点文章：https://free.yunxiang.lol/posts/nodes/2026-09-02
 - 每日免费节点归档：https://free.yunxiang.lol/nodes
 - 订阅格式检测工具：https://free.yunxiang.lol/tools/subscription-format-checker
 - 客户端专题页：https://free.yunxiang.lol/topics
@@ -40,12 +40,12 @@ https://free.yunxiang.lol/posts/nodes/2026-09-01
 
 - 面向场景：免费节点订阅导航、连接测试和文档索引入口
 - 推荐读者：需要快速确认今日是否更新、再跳到站内正文操作的读者
-- 内容重点：免费节点文章、订阅说明、连接排查和站内工具导航；2026年9月1日更新；香港、日本、新加坡、美国 等地区；100 Mbps 公共限速
+- 内容重点：免费节点文章、订阅说明、连接排查和站内工具导航；2026年9月2日更新；香港、日本、新加坡、美国 等地区；100 Mbps 公共限速
 - 固定入口：https://free.yunxiang.lol/
 
 ## 今日导入路径
 
-1. 打开今日文章，确认日期是 2026年9月1日，再获取正文里的免费订阅入口。
+1. 打开今日文章，确认日期是 2026年9月2日，再获取正文里的免费订阅入口。
 2. 先打开今日文章，再根据当前客户端进入站内教程或排错页面；如果客户端没有弹出，就复制文章里的地址后手动新增订阅。
 3. 导入后先更新订阅并测速，优先选择延迟稳定的 香港、日本、新加坡、美国 节点。
 4. 如果列表为空或格式不识别，回到站内导入教程、格式检测工具和排错页定位问题。
